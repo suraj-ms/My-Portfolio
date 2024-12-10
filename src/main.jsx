@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import App from './App';
 import './index.css';
 
-import Home from './components/Home/Home';
+import Home from './pages/Home';
 import Education from './pages/Education'
 import Experience from './pages/Experience'
 import Project from './pages/Project'

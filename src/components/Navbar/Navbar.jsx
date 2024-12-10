@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './NavBar.css';
+import { Link, useLocation } from 'react-router-dom';
 
 const NavBar = () => {
     const [isMobile, setIsMobile] = useState(false);
     const [theme, setTheme] = useState("dark");
+
+    const location = useLocation(); // Use useLocation hook from react-router-dom
 
     const toggleTheme = () => {
         const newTheme = theme === "light" ? "dark" : "light";
@@ -14,9 +17,6 @@ const NavBar = () => {
     const toggleMenu = () => {
         setIsMobile(!isMobile);
     };
-
-    // Get the current path from the URL
-    const getCurrentPath = () => window.location.pathname;
 
     const navItems = [
         { name: 'Home', path: '/' },
@@ -29,21 +29,21 @@ const NavBar = () => {
     return (
         <nav className="navbar">
             <div className="logo">
-                <h2 style={{fontFamily: "BrandFont"}}> &lt; Suraj MS /&gt;</h2>
+                <h2 style={{ fontFamily: "BrandFont" }}> &lt; Suraj MS /&gt;</h2>
             </div>
             <ul className={`nav-links ${isMobile ? "active" : ""}`}>
                 {navItems.map((item, index) => (
                     <li key={index}>
-                        <a
-                            href={item.path}
-                            className={getCurrentPath() === item.path ? 'active' : ''}
+                        <Link
+                            to={item.path}
+                            className={location.pathname === item.path ? 'active' : ''}
                         >
                             {item.name}
-                        </a>
+                        </Link>
                     </li>
                 ))}
                 <li>
-                    <button className='theme_btn' onClick={toggleTheme}>
+                    <button className="theme_btn" onClick={toggleTheme}>
                         <ion-icon name={theme === "light" ? "moon-outline" : "sunny-outline"}></ion-icon>
                     </button>
                 </li>

@@ -5,19 +5,19 @@
     margin: 30px 0;
 }
 
-.social_media li a ion-icon{
+.iconClass{
     font-size: 2rem;
     color: var(--text-color);
     margin: 10px;
 }
 
-.social_media li a ion-icon:hover{
+.iconClass:hover{
     color: var(--background-color);
     background-color: var(--text-color);
     border-radius: 5px;
 }
 
 
-.social_media li a ion-icon:first-child {
+.iconClass:first-child {
     margin-left: 0;
 }
