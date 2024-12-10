@@ -1,0 +1,91 @@
+.skill {
+    display: flex;
+    margin: 20px 50px;
+}
+
+.skill_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+}
+
+.skill_data {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill_item_img {
+    display: flex;
+
+}
+
+.skill_item_head {
+    margin: 10px;
+}
+
+
+.skill_item_img ion-icon {
+    font-size: 2rem;
+}
+
+.skill_item_img ion-icon:hover {
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+.skill_item_img li{
+    margin: 10px;
+    
+}
+.skill_item_img li:hover{
+    border-radius: 5px;
+    background-color: var(--text-color);
+}
+
+.skill_item_img_icon{
+    font-size: 2rem;
+    background-color: var(--background-color);
+}
+
+.skill_item_img_icon:hover{
+    background-color: var(--text-color);
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+.skill_item_body{
+    font-size: 1.3rem;
+}
+.skill_item_body li {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.skill_item_body li ion-icon{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+
+
+
+@media (max-width: 950px) {
+
+    .skill{
+        flex-direction: column;
+    }
+
+    .i2d{
+        order: 2;
+    }
+    
+    .i2i{
+        order: 1;
+    }
+    
+
+}

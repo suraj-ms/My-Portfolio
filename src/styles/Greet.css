@@ -1,0 +1,64 @@
+.greeting{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+
+.greeting h1{
+    font-size: 3rem;
+}
+
+.greeting p{
+    font-size: 1.5rem;
+}
+
+.greeting .greeting_item{
+    margin: 30px;
+    flex: 1;
+}
+
+
+.greet_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+
+
+
+.star_me{
+    background-color: var(--primary-color);
+    font-size: 1.3rem;
+    padding: 10px 20px 10px 10px;
+    width: fit-content;
+    border-radius: 5px;
+    color: var(--text-color);
+}
+
+
+
+@media (max-width: 950px) {
+
+    .greeting{
+        flex-direction: column;
+        padding: 0;
+    }
+    .greeting div{
+        margin: 20px 0;
+    }
+
+    .greeting h1{
+        font-size: 1.8rem;
+    }
+
+    .greeting p{
+        font-size: 1.2rem;
+    }
+
+    .greet_img{
+        width: 70%;
+        height: 70%;
+    }   
+
+}
