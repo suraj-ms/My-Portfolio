@@ -3,9 +3,6 @@ import '../styles/Skills.css';
 import contact from '../assets/images/contact.png'
 import blog from '../assets/images/blog.png'
 import address from '../assets/images/address.png'
-import web from '../assets/images/web.png';
-import cloud from '../assets/images/cloud.png';
-import graphics from '../assets/images/graphics.png';
 import ItemListLinks from '../components/ReusableComponents/ItemListLinks';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
