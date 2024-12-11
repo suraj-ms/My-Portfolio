@@ -29,9 +29,17 @@ body{
   font-variation-settings:"wdth" 100;
 }
 
+.border{
+  width: 400px;
+  height: 2px;
+  margin: 30px auto;
+  background-color: var(--text-color);
+}
+
 
 a{
   text-decoration: none;
+  color: var(--text-color);
 }
 
 li{
