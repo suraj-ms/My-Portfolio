@@ -8,7 +8,7 @@ const Certification = () => {
         <h1 style={{textAlign:'center', marginBottom:'60px'}}>Certifications</h1>
         <div className="certificate">
             <div className="certificate_img">
-            <SiUdemy />
+            <SiUdemy className='certificate_icon'/>
             </div>
             <div className="certificate_data">
                 <div className="certificate_name">The Complete 2024 Web Development </div>
@@ -17,7 +17,7 @@ const Certification = () => {
         </div>
         <div className="certificate">
             <div className="certificate_img">
-            <SiUdemy />
+            <SiUdemy className='certificate_icon' />
             </div>
             <div className="certificate_data">
                 <div className="certificate_name">The Complete 2024 Web Development </div>
@@ -26,7 +26,7 @@ const Certification = () => {
         </div>
         <div className="certificate">
             <div className="certificate_img">
-            <SiUdemy />
+            <SiUdemy className='certificate_icon'/>
             </div>
             <div className="certificate_data">
                 <div className="certificate_name">The Complete 2024 Web Development </div>
@@ -35,7 +35,7 @@ const Certification = () => {
         </div>
         <div className="certificate">
             <div className="certificate_img">
-            <SiUdemy />
+            <SiUdemy className='certificate_icon' />
             </div>
             <div className="certificate_data">
                 <div className="certificate_name">The Complete 2024 Web Development </div>
@@ -44,7 +44,7 @@ const Certification = () => {
         </div>
         <div className="certificate">
             <div className="certificate_img">
-            <SiUdemy />
+            <SiUdemy  className='certificate_icon' />
             </div>
             <div className="certificate_data">
                 <div className="certificate_name">The Complete 2024 Web Development </div>
@@ -53,7 +53,7 @@ const Certification = () => {
         </div>
         <div className="certificate">
             <div className="certificate_img">
-            <SiUdemy />
+            <SiUdemy className='certificate_icon'/>
             </div>
             <div className="certificate_data">
                 <div className="certificate_name">The Complete 2024 Web Development </div>

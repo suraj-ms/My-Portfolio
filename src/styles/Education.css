@@ -1,5 +1,22 @@
-.certification_component{
+.certification_component, .project_item{
     width: 80%;
-    margin: auto;
+    margin: 30px auto;
     text-align: center;
+
 }
+
+.more_items{
+    border: 1px solid var(--text-color);
+    padding: 15px 40px;
+    color: var(--text-color);
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+
+.more_items:hover{
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+
+

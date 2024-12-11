@@ -24,6 +24,10 @@
     justify-content: center;
 }
 
+.certificate_icon{
+    font-size: 2rem;
+}
+
 .certificate_data {
     display: flex;
     flex-direction: column ;
@@ -34,4 +38,14 @@
 
 .certificate_data div{
     margin: 10px 0;
+}
+
+
+
+@media (max-width: 950px) {
+
+    .certificate{
+       margin: 30px 0;
+    }
+
 }

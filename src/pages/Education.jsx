@@ -23,6 +23,7 @@ const Education = () => {
         iconClass="iconClass"
       />
       <EducationItem />
+      <div className="border"></div>
       <div className="certification_component">
         <Certification />
       </div>

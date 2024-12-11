@@ -29,7 +29,8 @@ const NavBar = () => {
     return (
         <nav className="navbar">
             <div className="logo">
-                <h2 style={{ fontFamily: "BrandFont" }}> &lt; Suraj MS /&gt;</h2>
+                <Link to='/'><h2 style={{ fontFamily: "BrandFont" }}> &lt; Suraj MS /&gt;</h2>
+                </Link>
             </div>
             <ul className={`nav-links ${isMobile ? "active" : ""}`}>
                 {navItems.map((item, index) => (

@@ -1,0 +1,26 @@
+.publication{
+    display: inline-block;
+    border: 1px solid var(--text-color);
+    width: 300px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    color: var(--text-color);
+
+}
+
+.publication_title{
+    margin-bottom: 5px;
+    
+}
+
+.publication_Desc{
+    
+    margin-bottom: 5px;
+}
+
+.publication:hover{
+    background-color: var(--text-color);
+    color: var(--background-color);
+}

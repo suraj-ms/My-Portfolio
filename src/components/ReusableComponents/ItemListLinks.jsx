@@ -9,7 +9,7 @@ const ItemListLinks = ({ links, iconClass }) => {
       {links.map((link, index) => (
         <li key={index}>
           <Link to={link.url}>
-            <link.icon className={iconClass} />  {/* Apply the iconClass here */}
+            <link.icon  className='iconClass' />
           </Link>
         </li>
       ))}

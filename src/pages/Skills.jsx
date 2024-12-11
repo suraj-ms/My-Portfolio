@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/Skills.css'
-import programmingIcon from '../assets/images/Programming-amico.svg';
 import { FaAws } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
