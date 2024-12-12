@@ -1,14 +1,15 @@
 import React from 'react'
 import Skills from './Skills'
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaSquareXTwitter } from "react-icons/fa6";
 import ReusableDef from '../components/ReusableComponents/ReusableDef'
 import img404 from '../assets/images/404.png'
 
 const Home = () => {
     const socialLinks = [
-        { url: 'https://www.linkedin.com', icon: FaLinkedin },
-        { url: 'https://github.com', icon: FaGithub },
-        { url: 'https://twitter.com', icon: FaTwitter },
+        { url: 'https://www.linkedin.com/in/suraj-m-s-757540151/', icon: FaLinkedin },
+        { url: 'https://github.com/suraj-ms', icon: FaGithub },
+        { url: 'https://x.com/SurajMavatkar', icon: FaSquareXTwitter },
     ];
     return (
         <div>

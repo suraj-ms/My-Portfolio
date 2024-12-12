@@ -20,9 +20,9 @@ const EducationItem = () => {
                     <div className="edu_year">2017-2021</div>
                 </div>
                 <ul className="clg_body">
-                <li><ion-icon name="flash-outline"></ion-icon> <p>I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.</p></li>
+                <li><ion-icon name="flash-outline"></ion-icon> <p>I have studied software engineering subjects like DS, Algorithms, DBMS, OS, AI etc.</p></li>
                 <li><ion-icon name="flash-outline"></ion-icon> <p>Apart from this, I have done courses on Cloud Computing and Full Stack Development.</p></li>
-                <li><ion-icon name="flash-outline"></ion-icon> <p>I was selected for Merit cum Means Scholarship which is given to top 10% of students in college.</p></li>
+                <li><ion-icon name="flash-outline"></ion-icon> <p>Member and organizer of ACM</p></li>
                 </ul>
             </div>
         </div>
@@ -36,11 +36,10 @@ const EducationItem = () => {
                         <p>Sadvidya Educational Institution</p>
                         <p>Intermediate in PCMC stream</p>
                     </div>
-                    <div className="edu_year">2017-2021</div>
+                    <div className="edu_year">2015-2017</div>
                 </div>
                 <ul className="clg_body">
-                <li><ion-icon name="flash-outline"></ion-icon> <p>I have studied basic concepts in Mathematics, Physics, Chemistry and Computer Science.</p></li>
-                <li><ion-icon name="flash-outline"></ion-icon> <p>I Secured 9.73 CGPA and also got 95 percentile in JEE Mains and 7527th rank in AP Eamcet.</p></li>
+                <li><ion-icon name="flash-outline"></ion-icon> <p>I have studied basic concepts in Physics, Chemistry, Mathematics and Computer Science(PCMC).</p></li>
                 </ul>
             </div>
         </div>

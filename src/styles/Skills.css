@@ -55,7 +55,6 @@
 
 .skill_item_img_icon{
     font-size: 2rem;
-    background-color: var(--background-color);
 }
 
 .skill_item_img_icon:hover{
@@ -74,9 +73,53 @@
 
 }
 
+.skill_item_img li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill_item_img_title {
+    font-size: 0.5rem;
+    visibility: hidden; /* Initially hidden */
+}
+
+.skill_item_img li:hover .skill_item_img_title {
+    visibility: visible; /* Visible on hover */
+    color: var(--background-color);
+}
+
+ 
 .skill_item_body li ion-icon{
     font-size: 1.5rem;
     margin-right: 10px;
+}
+
+.skill_logos{
+    margin:  20px;
+    text-align: center;
+}
+
+.skill_logos_list{
+    font-size: 1.3rem;
+    width: 7em;
+    height: 4em;
+    display: inline-block;
+    margin: 30px;text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.skill_logos_list:hover{
+    background-color: var(--text-color);
+    color: var(--background-color)
 }
 
 
@@ -84,8 +127,13 @@
 
 @media (max-width: 950px) {
 
+    .skill_logos{
+        margin: 0;
+    }
+
     .skill{
         flex-direction: column;
+        margin: 20px;
     }
 
     .i2d{
@@ -95,6 +143,17 @@
     .i2i{
         order: 1;
     }
+
+    .skill_logos_list{
+        margin: 10px;
+    }
     
+    
+}
+
+@media (max-width: 450px) {
+    .skill_logos_list{
+        margin: 5px;
+    }
 
 }

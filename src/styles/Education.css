@@ -1,5 +1,5 @@
 .certification_component, .project_item{
-    width: 80%;
+    /* width: 80%; */
     margin: 30px auto;
     text-align: center;
 
@@ -17,6 +17,7 @@
 .more_items:hover{
     background-color: var(--text-color);
     color: var(--background-color);
+    
 }
 
 

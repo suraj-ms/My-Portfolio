@@ -3,6 +3,7 @@ import ReusableDef from '../components/ReusableComponents/ReusableDef';
 import experience from '../assets/images/experience.png';
 import Accordion from './AccordionItem';
 import  tcs  from '../assets/images/tcs.png'
+import  ShivajiCreation  from '../assets/images/ShivajiCreation.png'
 import  acm  from '../assets/images/acm.png'
 
 const Experience = () => {
@@ -19,10 +20,22 @@ const Experience = () => {
         }
       ],
     },
+
     {
-      title: 'Internship',
-      content: 'Content for item 2',
+      title: 'Freelance',
+      content: [
+        {
+          img: ShivajiCreation,
+          title: 'Shivaji Creation',
+          company: 'www.shivajicreations.shop/',
+          def: 'A Freelace full stack applcation',
+        }
+      ],
     },
+    // {
+    //   title: 'Internship',
+    //   content: 'Updating Soon',
+    // },
     {
       title: 'Volunteerships',
       content: [
@@ -41,8 +54,8 @@ const Experience = () => {
     <div>
       <ReusableDef
         title="EXPERIENCE"
-        sub_title="Work, Internship and Volunteership"
-        description="Aspiring to explore myself in the world of programming by solving challenging problems of the world and exposing myself to different environments. I always work to enhance my skills alongside being resourceful to the organisation I work with."
+        sub_title="Work, Freelance and Volunteership"
+        description="A santa developer with a box full of qualities: Leadership, Innovation, Storytelling, Mentorship, Quick Adaptability, and a treasure trove of ideas ready to execute."
         imgSrc={experience}
         links={socialLinks}
         iconClass="iconClass"

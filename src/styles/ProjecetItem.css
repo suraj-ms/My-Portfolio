@@ -24,6 +24,10 @@
     margin-bottom: 10px;
 }
 
+.project_title ion-icon{
+    transform: translateY(4px);
+}
+
 .project_desc{
     margin-bottom: 10px;
 }
@@ -31,4 +35,12 @@
 .stack_img{
     font-size: 2rem;
     margin: 3px;
+}
+
+@media (max-width: 950px) {
+
+    .project{
+        width: 300px;
+    }
+
 }

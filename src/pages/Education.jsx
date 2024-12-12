@@ -8,9 +8,9 @@ import Certification from './Certification';
 
 const Education = () => {
   const socialLinks = [
-    { url: 'https://www.linkedin.com', icon: SiHackerrank },
-    { url: 'https://github.com', icon: SiLeetcode },
-    { url: 'https://twitter.com', icon: SiCodeforces },
+    { url: 'https://www.hackerrank.com/profile/SURAJ_M_S', icon: SiHackerrank },
+    { url: 'https://leetcode.com/u/SURAJ_M_S/', icon: SiLeetcode },
+    // { url: 'https://twitter.com', icon: SiCodeforces },
   ];
 
   return (

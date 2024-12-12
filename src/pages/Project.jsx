@@ -12,7 +12,7 @@ const Project = () => {
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', }}>
       <ReusableDef
         title="PROJECT"
-        description="My projects makes use of vast variety of latest technology tools. My best experience is to create projects and deploy them to web applications using cloud infrastructure."
+        description="I specialize in creating innovative web applications using the latest technologies, deploying them on scalable cloud infrastructures for optimal performance, flexibility, and reliability, ensuring impactful, future-proof solutions for every project."
         imgSrc={project}
         links={socialLinks}
         iconClass="iconClass"
@@ -20,7 +20,7 @@ const Project = () => {
       <div className="project_item">
         <ProjecetItem />
       </div>
-      <Link to='/' className='more_items'>More Projeccts</Link>
+      <Link to='https://github.com/suraj-ms?tab=repositories' className='more_items'>More Projeccts</Link>
       <div className="border"></div>
       <div style={{ textAlign: 'center'}}>
         <Publications />

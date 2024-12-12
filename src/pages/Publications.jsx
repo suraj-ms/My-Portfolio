@@ -6,7 +6,7 @@ const Publications = () => {
     <div>
         <h1>Publications</h1>
         <br />
-        <p>I have worked on and published a few research papers and publications of my own.</p>
+        <p>I have had the privilege of contributing to and co-authoring several research papers and publications, collaborating closely with a dedicated team of four experts.</p>
         <br />
         <PublicationItem />
     </div>
