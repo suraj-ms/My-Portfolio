@@ -37,9 +37,9 @@ const ContactItem = () => {
                     <h1 className="skill_item_head">Contact Me</h1>
                     <p style={{ fontSize: '1.3rem', margin: '0px 0px 30px 20px' }} >Feel free to reach out for any inquiries. I look forward to connecting with you and assisting in any way I can.</p>
                     {socialLinks.length > 0 && <ItemListLinks links={socialLinks} iconClass={iconClass} />}
-                    <button style={{padding:'10px', cursor: 'pointer'}} onClick={handleDownload}>
+                    <Link style={{padding:'10px', cursor: 'pointer', background:'var(--text-color)', color:'var(--background-color)', fontWeight:'500', borderRadius:'5px'}} onClick={handleDownload}>
                         Download My Resume
-                    </button>
+                    </Link>
                 </div>
             </div>
 
