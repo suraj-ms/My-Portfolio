@@ -7,7 +7,7 @@ const skills = [
   { id: 1, icon: <FaReact />, name: 'React' },
   { id: 2, icon: <FaNodeJs />, name: 'Node.js' },
   { id: 3, icon: <SiExpress />, name: 'Express jS' },
-  { id: 10, icon: < FaPython  />, name: 'MongoDb' },
+  { id: 10, icon: < FaPython  />, name: 'Python' },
   { id: 4, icon: <DiMongodb  />, name: 'MongoDb' },
   { id: 5, icon: < SiMysql  />, name: 'My Sql' },
   { id: 6, icon: < FaHtml5  />, name: 'HTML' },
