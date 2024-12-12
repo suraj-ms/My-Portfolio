@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './Navbar.css';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -7,6 +7,7 @@ const NavBar = () => {
     const [theme, setTheme] = useState("dark");
 
     const location = useLocation(); // Use useLocation hook from react-router-dom
+    const navbarRef = useRef(null); // Reference to the navbar element
 
     const toggleTheme = () => {
         const newTheme = theme === "light" ? "dark" : "light";
@@ -18,6 +19,26 @@ const NavBar = () => {
         setIsMobile(!isMobile);
     };
 
+    // Close the navbar if the user clicks outside of it
+    const handleClickOutside = (event) => {
+        if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+            setIsMobile(false);
+        }
+    };
+
+    // Close the navbar when clicking on any nav link
+    const handleNavLinkClick = () => {
+        setIsMobile(false);
+    };
+
+    // Event listener to detect clicks outside the navbar
+    useEffect(() => {
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
+
     const navItems = [
         { name: 'Home', path: '/' },
         { name: 'Education', path: '/education' },
@@ -27,9 +48,10 @@ const NavBar = () => {
     ];
 
     return (
-        <nav className="navbar">
+        <nav className="navbar" ref={navbarRef}>
             <div className="logo">
-                <Link to='/'><h2 style={{ fontFamily: "BrandFont" }}> &lt; Suraj MS /&gt;</h2>
+                <Link to='/'>
+                    <h2 style={{ fontFamily: "BrandFont" }}> &lt; Suraj MS /&gt;</h2>
                 </Link>
             </div>
             <ul className={`nav-links ${isMobile ? "active" : ""}`}>
@@ -38,6 +60,7 @@ const NavBar = () => {
                         <Link
                             to={item.path}
                             className={location.pathname === item.path ? 'active' : ''}
+                            onClick={handleNavLinkClick} // Close menu on link click
                         >
                             {item.name}
                         </Link>
