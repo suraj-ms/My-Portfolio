@@ -38,7 +38,7 @@ const ContactItem = () => {
                     <p style={{ fontSize: '1.3rem', margin: '0px 0px 30px 20px' }} >Feel free to reach out for any inquiries. I look forward to connecting with you and assisting in any way I can.</p>
                     {socialLinks.length > 0 && <ItemListLinks links={socialLinks} iconClass={iconClass} />}
                     <Link style={{padding:'10px', cursor: 'pointer', background:'var(--text-color)', color:'var(--background-color)', fontWeight:'500', borderRadius:'5px'}} onClick={handleDownload}>
-                        Download My Resume
+                        My Resume
                     </Link>
                 </div>
             </div>
