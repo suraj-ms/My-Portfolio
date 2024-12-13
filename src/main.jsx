@@ -9,6 +9,7 @@ import Education from './pages/Education'
 import Experience from './pages/Experience'
 import Project from './pages/Project'
 import ContactMe from './pages/ContactMe'
+import PdfViewerPage from './pages/Resume';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -21,6 +22,7 @@ root.render(
         <Route path="experience" element={<Experience />} />
         <Route path="project" element={<Project />} />
         <Route path="contact" element={<ContactMe />} />
+        <Route path="/resume" element={<PdfViewerPage />} />
       </Route>
     </Routes>
   </Router>

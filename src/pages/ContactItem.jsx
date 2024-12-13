@@ -18,14 +18,6 @@ const ContactItem = () => {
 
     const iconClass = "social-icon"; // Define a default icon class or remove if unused.
 
-    const handleDownload = () => {
-        const link = document.createElement('a');
-        link.href = 'src/assets/SurajResume.pdf';
-        link.download = 'SurajResume.pdf';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
 
     return (
         <div>
@@ -37,7 +29,7 @@ const ContactItem = () => {
                     <h1 className="skill_item_head">Contact Me</h1>
                     <p style={{ fontSize: '1.3rem', margin: '0px 0px 30px 20px' }} >Feel free to reach out for any inquiries. I look forward to connecting with you and assisting in any way I can.</p>
                     {socialLinks.length > 0 && <ItemListLinks links={socialLinks} iconClass={iconClass} />}
-                    <Link to='https://drive.google.com/file/d/1IpjLaBbQE7X5y8HB_GL4jHOHtRo5GUHg/view?usp=drivesdk' style={{padding:'10px', cursor: 'pointer', background:'var(--text-color)', color:'var(--background-color)', fontWeight:'500', borderRadius:'5px'}}>
+                    <Link to='/resume' style={{padding:'10px', cursor: 'pointer', background:'var(--text-color)', color:'var(--background-color)', fontWeight:'500', borderRadius:'5px'}}>
                         My Resume
                     </Link>
                 </div>

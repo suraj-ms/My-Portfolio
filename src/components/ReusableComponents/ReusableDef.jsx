@@ -7,7 +7,7 @@ import '../../styles/ReusableDef.css'
 const ReusableDef = ({ title, description, imgSrc, sub_title, githubLink, links, iconClass }) => {
   return (
     <div className='greeting'>
-      <div className="greeting_item">
+      <div className="greeting_item i2d">
         <h1 style={{ fontFamily: "CustomFont, sans-serif" }}>{title}</h1>
         <h2 style={{fontSize: '2rem'}}>{sub_title}</h2>
         <p>{description}</p>
@@ -17,7 +17,7 @@ const ReusableDef = ({ title, description, imgSrc, sub_title, githubLink, links,
         </Link>)}
       </div>
 
-      <div className='greet_img greeting_item'>
+      <div className='greet_img greeting_item i2i'>
         <img src={imgSrc} alt="Programming Icon" width="60%" height="60%" />
       </div>
     </div>

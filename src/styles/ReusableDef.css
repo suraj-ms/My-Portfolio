@@ -61,4 +61,13 @@
         height: 70%;
     }   
 
+    .i2d{
+        order: 2;
+    }
+    
+    .i2i{
+        order: 1;
+    }
+
+
 }
