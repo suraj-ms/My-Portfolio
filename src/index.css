@@ -20,16 +20,16 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   color: var(--text-color);
   font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-  font-variation-settings:"wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
-.border{
+.border {
   width: 400px;
   height: 2px;
   margin: 30px auto;
@@ -37,18 +37,18 @@ body{
 }
 
 
-a{
+a {
   text-decoration: none;
   color: var(--text-color);
 }
 
-li{
+li {
   list-style: none;
 }
 
 @font-face {
   font-family: 'CustomFont';
-  src: url('/src/assets/Cracked-Code-Font/Cracked\ Code.ttf') format('truetype');
+  src: url('/src/assets/Cracked-Code-Font/CrackedCode.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -68,7 +68,7 @@ body {
 }
 
 @media (max-width: 950px) {
-  .border{
+  .border {
     width: 100%;
 
   }
