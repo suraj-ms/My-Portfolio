@@ -2,9 +2,9 @@ import React from 'react'
 import ReusableDef from '../components/ReusableComponents/ReusableDef';
 import experience from '../assets/images/experience.png';
 import Accordion from './AccordionItem';
-import  tcs  from '../assets/images/tcs.png'
-import  ShivajiCreation  from '../assets/images/ShivajiCreation.png'
-import  acm  from '../assets/images/acm.png'
+import tcs from '../assets/images/tcs.png'
+import ShivajiCreation from '../assets/images/ShivajiCreation.png'
+import acm from '../assets/images/acm.png'
 
 const Experience = () => {
 
@@ -29,6 +29,7 @@ const Experience = () => {
           title: 'Shivaji Creation',
           company: 'www.shivajicreations.shop/',
           def: 'A Freelace full stack applcation',
+          link: 'https://www.shivajicreations.shop',
         }
       ],
     },
@@ -47,7 +48,7 @@ const Experience = () => {
       ],
     },
   ];
-  
+
 
   const socialLinks = [];
   return (
@@ -61,7 +62,7 @@ const Experience = () => {
         iconClass="iconClass"
       />
 
-<Accordion items={items} />
+      <Accordion items={items} />
     </div>
   )
 }

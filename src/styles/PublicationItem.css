@@ -1,4 +1,4 @@
-.publication{
+.publication {
     display: inline-block;
     border: 1px solid var(--text-color);
     width: fit-content;
@@ -10,17 +10,21 @@
 
 }
 
-.publication_title{
+.publication_title {
     margin-bottom: 5px;
-    
+
 }
 
-.publication_Desc{
-    
+.publication_desc {
+    padding: 10px;
+}
+
+.publication_Desc {
+
     margin-bottom: 5px;
 }
 
-.publication:hover{
+.publication:hover {
     background-color: var(--text-color);
     color: var(--background-color);
 }

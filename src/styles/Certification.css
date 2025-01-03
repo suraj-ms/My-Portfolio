@@ -4,7 +4,8 @@
     text-align: center;
     width: 300px;
     height: 25vh;
-    vertical-align: top; /* Aligns the inline-block elements at the top */
+    vertical-align: top;
+    /* Aligns the inline-block elements at the top */
     background: rgba(255, 255, 255, 0.08);
     border-radius: 5px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -12,6 +13,7 @@
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     margin: 30px;
+    cursor: pointer;
 }
 
 
@@ -24,19 +26,19 @@
     justify-content: center;
 }
 
-.certificate_icon{
+.certificate_icon {
     font-size: 2rem;
 }
 
 .certificate_data {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     align-items: center;
     padding: 10px;
 
 }
 
-.certificate_data div{
+.certificate_data div {
     margin: 10px 0;
 }
 
@@ -44,8 +46,8 @@
 
 @media (max-width: 950px) {
 
-    .certificate{
-       margin: 30px 5px;
+    .certificate {
+        margin: 30px 5px;
     }
 
 }
@@ -72,17 +74,21 @@
     background: white;
     padding: 20px;
     border-radius: 8px;
-    max-width: 80%;  /* Limit width of modal content */
-    max-height: 80%; /* Limit height of modal content */
+    max-width: 80%;
+    /* Limit width of modal content */
+    max-height: 80%;
+    /* Limit height of modal content */
     overflow: hidden;
 }
 
 /* Ensure the image fits within the modal */
 .modal_image {
     width: 100%;
-    max-width: 600px; /* You can adjust this to your preference */
+    max-width: 600px;
+    /* You can adjust this to your preference */
     height: auto;
-    object-fit: contain;  /* Keeps the aspect ratio intact */
+    object-fit: contain;
+    /* Keeps the aspect ratio intact */
 }
 
 /* Close button styling */

@@ -3,6 +3,18 @@ import '../styles/Accordion.css'; // Optional: Create a CSS file for styling
 
 // Accordion Item Component
 const AccordionItem = ({ title, content, isOpen, onToggle }) => {
+  // Check if the content has a link for the first item
+  const firstContentItem = Array.isArray(content) ? content[0] : null;
+  const link = firstContentItem?.link;
+
+  // Handle click to open the link when item is clicked
+  const handleClick = (e) => {
+    if (link) {
+      e.stopPropagation(); // Prevent accordion toggle
+      window.open(link, '_blank');
+    }
+  };
+
   return (
     <div className="accordion-item">
       <div className="accordion-header" onClick={onToggle}>
@@ -13,23 +25,24 @@ const AccordionItem = ({ title, content, isOpen, onToggle }) => {
         <div className="accordion-content">
           {Array.isArray(content) ? (
             <ul>
-              {content.map((child, index) => {
-                if (typeof child === 'object') {
-                  // Render object with image and details
-                  return (
-                    <li key={index} className="accordion-object-item">
-                      {child.img && <span span className="accordion-item-image" > <img src={child.img} alt={child.title}  /> </span>}
-                      <div className="accordion-item-details">
-                        <h4>{child.title}</h4>
-                        {child.company && <p><strong>Company:</strong> {child.company}</p>}
-                        <p>{child.def}</p>
-                      </div>
-                    </li>
-                  );
-                }
-                // Render plain text for simpler content
-                return <li key={index}>{child}</li>;
-              })}
+              {content.map((child, index) => (
+                <li
+                  key={index}
+                  className={`accordion-object-item ${link ? 'clickable' : ''}`}
+                  onClick={link ? (e) => handleClick(e) : null}
+                >
+                  {child.img && (
+                    <span className="accordion-item-image">
+                      <img src={child.img} alt={child.title} />
+                    </span>
+                  )}
+                  <div className="accordion-item-details">
+                    <h4>{child.title}</h4>
+                    {child.company && <p><strong>Company:</strong> {child.company}</p>}
+                    <p>{child.def}</p>
+                  </div>
+                </li>
+              ))}
             </ul>
           ) : (
             content
@@ -39,6 +52,7 @@ const AccordionItem = ({ title, content, isOpen, onToggle }) => {
     </div>
   );
 };
+
 
 
 // Main Accordion Component
