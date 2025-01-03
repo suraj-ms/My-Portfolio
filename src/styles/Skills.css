@@ -27,6 +27,7 @@
 
 .skill_item_img {
     display: flex;
+    flex-wrap: wrap;
 
 }
 
