@@ -125,8 +125,11 @@
 
 .skill_logos_list:hover {
     background-color: var(--text-color);
-    color: var(--background-color)
 }
+
+.skill_logos_list:hover a {
+    color: var(--background-color)
+  }
 
 
 
