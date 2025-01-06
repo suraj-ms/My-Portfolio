@@ -6,8 +6,8 @@ const NavBar = () => {
     const [isMobile, setIsMobile] = useState(false);
     const [theme, setTheme] = useState("dark");
 
-    const location = useLocation(); // Use useLocation hook from react-router-dom
-    const navbarRef = useRef(null); // Reference to the navbar element
+    const location = useLocation();
+    const navbarRef = useRef(null);
 
     const toggleTheme = () => {
         const newTheme = theme === "light" ? "dark" : "light";

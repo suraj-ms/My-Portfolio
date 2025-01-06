@@ -2,10 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    position: relative;
+    position: fixed;
     z-index: 1;
     padding: 30px 60px;
+    background-color: var(--background-color);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
 .navbar .logo h2 {
