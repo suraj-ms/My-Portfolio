@@ -2,7 +2,7 @@ import React from 'react';
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaAws, FaPython, FaJava, FaAngular, FaLinux, FaGit, FaDocker } from "react-icons/fa";
 import { SiExpress, SiMysql, SiAdobexd, SiTypescript, SiDjango, SiGooglemaps } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
-import { IoLogoFirebase } from "react-icons/io5";
+import { IoLogoFirebase, IoLogoJavascript  } from "react-icons/io5";
 import { RiGeminiFill } from "react-icons/ri";
 import { TbBrandReactNative } from "react-icons/tb";
 
@@ -16,6 +16,7 @@ const skills = [
   { id: 18, icon: <IoLogoFirebase />, name: 'Firebase', url: 'https://firebase.google.com/' },
   { id: 19, icon: <RiGeminiFill />, name: 'Gemini', url: 'https://gemini.com/' },
   { id: 20, icon: <TbBrandReactNative />, name: 'ReactNative', url: 'https://reactnative.dev/' },
+  { id: 21, icon: <IoLogoJavascript  />, name: 'Java Script', url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
   { id: 6, icon: <FaHtml5 />, name: 'HTML', url: 'https://developer.mozilla.org/en-US/docs/Web/HTML' },
   { id: 7, icon: <FaCss3Alt />, name: 'CSS', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
   { id: 8, icon: <FaAws />, name: 'AWS', url: 'https://aws.amazon.com/' },
