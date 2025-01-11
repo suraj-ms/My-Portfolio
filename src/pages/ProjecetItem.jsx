@@ -8,6 +8,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { TbBrandReactNative } from "react-icons/tb";
 import { Link } from 'react-router-dom';
 import { CiMobile3 } from "react-icons/ci";
+import { SiApachekafka } from "react-icons/si";
 
 const ProjecetItem = () => {
     return (
@@ -44,6 +45,15 @@ const ProjecetItem = () => {
                     <li className="tech_stack_item" title="HTML5"><FaHtml5 className='stack_img' /></li>
                     <li className="tech_stack_item" title="CSS3"><FaCss3Alt className='stack_img' /></li>
                     <li className="tech_stack_item" title="JavaScript"><FaJs className='stack_img' /></li>
+                </ul>
+
+            </Link>
+            <Link to='https://github.com/suraj-ms/Kafka-demo' className='project'>
+                <div className="project_title"><ion-icon name="laptop-outline"></ion-icon>Kafka Demo</div>
+                <div className="project_desc">A base kafka working model</div>
+                <ul className="tech_stack">
+                    <li className="tech_stack_item" title="JavaScript"><FaJs className='stack_img' /></li>
+                    <li className="tech_stack_item" title="kafka"><SiApachekafka  className='stack_img' /></li>
                 </ul>
 
             </Link>
