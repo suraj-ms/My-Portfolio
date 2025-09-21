@@ -64,6 +64,9 @@ const ContactItem = () => {
                     <h1 className="skill_item_head">Phone Number</h1>
                     <p style={{ fontSize: '1.3rem', margin: '0px 0px 30px 20px' }}><a href='tel:7259116344'>+91 7259116344</a></p>
                     <TbHandClick style={{ fontSize: '1.3rem', transform: 'translate(100px, 9px)', rotate: '-30deg' }} />
+                    <h1 className="skill_item_head">Email</h1>
+                    <p style={{ fontSize: '1.3rem', margin: '0px 0px 30px 20px' }}><a href='mailto:surajmshivakumar@gmail.com'>surajmshivakumar@gmail.com</a></p>
+                    <TbHandClick style={{ fontSize: '1.3rem', transform: 'translate(90px, 13px)', rotate: '-30deg' }} />
                     {/* <Link className='more_items' to='/' >Visit On Google Maps</Link> */}
                 </div>
             </div>
