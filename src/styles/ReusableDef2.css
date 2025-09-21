@@ -120,7 +120,7 @@
 /* Very small screens */
 @media (max-width: 480px) {
   .intro_dashboard p {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
   }
 
   .dashboard{
