@@ -53,6 +53,7 @@ const Experience = () => {
           img: acm,
           title: 'Member and organizer of ACM',
           def: 'Organized and managed community outreach programs.',
+          link: 'https://www.acm.org/',
         },
       ],
     },

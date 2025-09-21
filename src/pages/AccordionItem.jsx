@@ -28,8 +28,11 @@ const AccordionItem = ({ title, content, isOpen, onToggle }) => {
               {content.map((child, index) => (
                 <li
                   key={index}
-                  className={`accordion-object-item ${link ? 'clickable' : ''}`}
-                  onClick={link ? (e) => handleClick(e) : null}
+                  className={`accordion-object-item ${child.link ? 'clickable' : ''}`}
+                  onClick={child.link ? (e) => {
+                    e.stopPropagation();
+                    window.open(child.link, '_blank');
+                  } : null}
                 >
                   {child.img && (
                     <span className="accordion-item-image">
