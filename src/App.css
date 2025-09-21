@@ -1,5 +1,26 @@
- .footer{
-    
+:root {
+  --theme-primary : #f55142
+}
+
+.lable_poster{
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #17232d;
+  margin: 30px 0;
+  width: 100%;
+  overflow-x: auto;   /* allow scroll */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.lable_poster p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #414d55;
+}
+
+.footer{
     text-align: center;
     font-size: 1.1rem;
     margin: 130px 30px 30px 30px;

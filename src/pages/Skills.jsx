@@ -32,7 +32,7 @@ const Skills = () => {
                         <li onClick={() => handleNavigation('https://expressjs.com/')}><p className='skill_item_img_title'>Express</p> <SiExpress className="skill_item_img_icon" /></li>
                         <li onClick={() => handleNavigation('https://www.docker.com/')}><p className='skill_item_img_title'>Docker</p> <ion-icon name="logo-docker"></ion-icon></li>
                         <li onClick={() => handleNavigation('https://www.python.org/')}><p className='skill_item_img_title'>Python</p> <ion-icon name="logo-python"></ion-icon></li>
-                        <li onClick={() => handleNavigation('https://angular.io/')}><p className='skill_item_img_title'>Angular</p> <ion-icon name="logo-angular"></ion-icon></li>
+                        {/* <li onClick={() => handleNavigation('https://angular.io/')}><p className='skill_item_img_title'>Angular</p> <ion-icon name="logo-angular"></ion-icon></li> */}
                     </ul>
                     <ul className="skill_item_body">
                         <li><ion-icon name="flash-outline"></ion-icon> <p>End-to-End Development: Full-stack development enables creating both the client-side (frontend) and server-side (backend) of applications.</p></li>
@@ -50,7 +50,7 @@ const Skills = () => {
                         <li onClick={() => handleNavigation('https://ai.google.dev/')}><p className='skill_item_img_title'>Gemini</p> <RiGeminiFill className="skill_item_img_icon" /></li>
                     </ul>
                     <ul className="skill_item_body">
-                        <li><ion-icon name="flash-outline"></ion-icon> <p>Utilize Gemini in your application via Google's AI platform to generate and analyze data with advanced language and reasoning capabilities.</p></li>
+                        <li><ion-icon name="flash-outline"></ion-icon> <p>Utilize AI like Gemini in application via Google's AI platform to generate and analyze data with advanced language and reasoning capabilities.</p></li>
                         <li><ion-icon name="flash-outline"></ion-icon> <p>Experience working on multiple AI platforms</p></li>
                     </ul>
                 </div>
@@ -76,10 +76,10 @@ const Skills = () => {
                         <li onClick={() => handleNavigation('https://mapsplatform.google.com/')}><p className='skill_item_img_title'>Google Maps</p> <SiGooglemaps className="skill_item_img_icon" /></li>
                     </ul>
                     <ul className="skill_item_body">
-                        <li><ion-icon name="flash-outline"></ion-icon> <p>Leverage Google Maps Platform to retrieve precise location data and integrate it into applications for features like navigation, geocoding, and location-based services.</p></li>
+                        <li><ion-icon name="flash-outline"></ion-icon> <p>Integrate Google Maps Platform for precise location data, navigation, geocoding, and location-based features.</p></li>
                         <li><ion-icon name="flash-outline"></ion-icon> <p>Firebase simplifies backend development by providing real-time databases, authentication, hosting, and cloud functions for seamless app integration.</p></li>
                         <li><ion-icon name="flash-outline"></ion-icon> <p>Experience working on multiple cloud platforms</p></li>
-                        <li><ion-icon name="flash-outline"></ion-icon> <p>Hosting and maintaining applications on virtual machine instances along with integration of databases</p></li>
+                        {/* <li><ion-icon name="flash-outline"></ion-icon> <p>Hosting and maintaining applications on virtual machine instances along with integration of databases</p></li> */}
                     </ul>
                 </div>
 

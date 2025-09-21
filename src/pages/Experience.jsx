@@ -3,6 +3,7 @@ import ReusableDef from '../components/ReusableComponents/ReusableDef';
 import experience from '../assets/images/experience.png';
 import Accordion from './AccordionItem';
 import tcs from '../assets/images/tcs.png'
+import sixd from '../assets/images/6d.png'
 import ShivajiCreation from '../assets/images/ShivajiCreation.png'
 import acm from '../assets/images/acm.png'
 
@@ -16,7 +17,15 @@ const Experience = () => {
           img: tcs,
           title: 'System Engineer',
           company: 'Tata Consultancy Services',
-          def: 'Developed scalable web applications and microservices.',
+          def: 'Full Stack Developer',
+          link: 'https://www.tcs.com/',
+        },
+        {
+          img: sixd,
+          title: 'Senior Software Engineer',
+          company: '6D Technologies Private Limited',
+          def: 'Full Stack Developer',
+          link: 'https://www.6dtechnologies.com/',
         }
       ],
     },

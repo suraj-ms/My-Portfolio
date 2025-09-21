@@ -1,0 +1,138 @@
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  flex-wrap: wrap; /* helps with smaller screens */
+}
+
+.dashboard p {
+    font-size: 3rem;
+}
+
+.left_Dashboard,
+.right_Dashboard {
+  width: 50%;
+}
+
+.left_Dashboard {
+  padding-left: 100px;
+}
+
+.dashboard_img {
+  width: 50%;
+  margin: auto;
+}
+
+.intro_dashboard {
+  position: relative;
+}
+
+.dashboad_buttons {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dashboad_buttons_item {
+  padding: 10px;
+  margin: 5px 10px 5px 0;
+  border-radius: 5px;
+  background: none;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* ------------------------- */
+/* 📱 Responsive Styles */
+/* ------------------------- */
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+  .left_Dashboard {
+    padding-left: 50px;
+  }
+
+  .dashboard p {
+    font-size: 2rem;
+}
+
+
+  .dashboard_img {
+    width: 70%;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+    .social_media{
+        margin: auto;
+    }
+
+  .dashboard {
+    flex-direction: column;
+    align-items: center; /* center left & right sections */
+    text-align: center;
+  }
+
+  .left_Dashboard,
+  .right_Dashboard {
+    width: 100%;
+    padding-left: 0;   /* remove extra left padding */
+    text-align: center; /* center text inside */
+    
+  }
+
+  .intro_dashboard {
+    display: flex;
+    flex-direction: column; /* stack name/title/line vertically */
+    align-items: center;    /* center children */
+  }
+
+   /* Flip order */
+  .left_Dashboard {
+    margin-top: 30px;
+    order: 2; /* show after */
+  }
+
+  .right_Dashboard {
+    order: 1; /* show first */
+  }
+
+  .dashboard_img {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .dashboad_buttons {
+    flex-direction: column;  /* stack buttons vertically */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dashboad_buttons_item {
+    margin: 10px 0; /* center buttons with spacing */
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .intro_dashboard p {
+    font-size: 2rem !important;
+  }
+
+  .dashboard{
+    align-items: center;
+  }
+
+  .dashboard_img {
+    width: 90%;
+  }
+
+  .dashboad_buttons_item {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}
