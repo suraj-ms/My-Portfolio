@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import '../styles/Certification.css';
 import { SiUdemy } from "react-icons/si";
+import { SiHackerrank, SiLeetcode, SiCodeforces } from "react-icons/si";
 import { FaReact, FaLinkedin } from "react-icons/fa";
 import sof from '../assets/images/sof.png';
 import { Link } from 'react-router-dom';
+import HR from '../assets/images/HR.png';
 import MERN from '../assets/images/MERN.jpg';
 import python from '../assets/images/python.jpg';
 import sofimg from '../assets/images/sof.jpg';
@@ -13,6 +15,12 @@ import aws from '../assets/images/aws.jpg';
 
 // Sample certifications data
 const certifications = [
+    {
+        name: " Certified Front-end Developer (React)",
+        provider: "Hackerrank",
+        icon: <SiHackerrank className='certificate_icon' />,
+        image: HR,
+    },
     {
         name: "The Complete 2024 Web Development Bootcamp",
         provider: "Udemy",
