@@ -49,7 +49,7 @@ const PdfViewer = () => {
       {/* Show PDF in iframe on desktop, image on mobile */}
       {isMobile ? (
         <img
-          src={SurajMS}
+          src={SurajResume}
           alt="Suraj's Resume"
           width="80%"
           style={{ marginTop: '20px', border: '1px solid #ccc' }}
