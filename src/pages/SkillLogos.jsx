@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaAws, FaPython, FaJava, FaAngular, FaLinux, FaGit, FaDocker } from "react-icons/fa";
-import { SiExpress, SiMysql, SiAdobexd, SiTypescript, SiDjango, SiGooglemaps } from "react-icons/si";
+import { SiExpress, SiMysql, SiAdobexd, SiTypescript, SiDjango, SiGooglemaps, SiKubernetes, SiGrafana   } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { IoLogoFirebase, IoLogoJavascript  } from "react-icons/io5";
 import { RiGeminiFill } from "react-icons/ri";
@@ -28,7 +28,8 @@ const skills = [
   { id: 14, icon: <FaDocker />, name: 'Docker', url: 'https://www.docker.com/' },
   { id: 15, icon: <FaLinux />, name: 'Linux', url: 'https://www.linux.org/' },
   { id: 16, icon: <FaGit />, name: 'Git', url: 'https://git-scm.com/' },
-
+  { id: 16, icon: <SiKubernetes />, name: 'Kubernetes', url: 'https://kubernetes.io/' },
+  { id: 16, icon: <SiGrafana />, name: 'Grafana', url: 'https://grafana.com/' },
 ];
 
 const SkillLogos = () => {
