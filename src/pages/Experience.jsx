@@ -36,9 +36,9 @@ const Experience = () => {
         {
           img: ShivajiCreation,
           title: 'Shivaji Creation',
-          company: 'www.shivajicreations.shop/',
+          // company: 'www.shivajicreations.shop/',
           def: 'A Freelace full stack applcation',
-          link: 'https://www.shivajicreations.shop',
+          // link: 'https://www.shivajicreations.shop',
         }
       ],
     },
