@@ -13,16 +13,10 @@ const Experience = () => {
     {
       title: 'Experience',
       content: [
-        {
-          img: tcs,
-          title: 'System Engineer',
-          company: 'Tata Consultancy Services',
-          def: 'Full Stack Developer',
-          link: 'https://www.tcs.com/',
-        },
+
         {
           img: sixd,
-          title: 'Senior Software Engineer',
+          title: 'Software Engineer',
           company: '6D Technologies Private Limited',
           def: 'Full Stack Developer',
           link: 'https://www.6dtechnologies.com/',
@@ -30,33 +24,33 @@ const Experience = () => {
       ],
     },
 
-    {
-      title: 'Freelance',
-      content: [
-        {
-          img: ShivajiCreation,
-          title: 'Shivaji Creation',
-          // company: 'www.shivajicreations.shop/',
-          def: 'A Freelace full stack applcation',
-          // link: 'https://www.shivajicreations.shop',
-        }
-      ],
-    },
     // {
-    //   title: 'Internship',
-    //   content: 'Updating Soon',
+    //   title: 'Freelance',
+    //   content: [
+    //     {
+    //       img: ShivajiCreation,
+    //       title: 'Shivaji Creation',
+    //       // company: 'www.shivajicreations.shop/',
+    //       def: 'A Freelace full stack applcation',
+    //       // link: 'https://www.shivajicreations.shop',
+    //     }
+    //   ],
     // },
-    {
-      title: 'Volunteerships',
-      content: [
-        {
-          img: acm,
-          title: 'Member and organizer of ACM',
-          def: 'Organized and managed community outreach programs.',
-          link: 'https://www.acm.org/',
-        },
-      ],
-    },
+    // // {
+    // //   title: 'Internship',
+    // //   content: 'Updating Soon',
+    // // },
+    // {
+    //   title: 'Volunteerships',
+    //   content: [
+    //     {
+    //       img: acm,
+    //       title: 'Member and organizer of ACM',
+    //       def: 'Organized and managed community outreach programs.',
+    //       link: 'https://www.acm.org/',
+    //     },
+    //   ],
+    // },
   ];
 
 
