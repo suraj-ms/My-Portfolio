@@ -11,18 +11,17 @@ import img404 from '../assets/images/404.png'
 
 const Home = () => {
     const socialLinks = [
-        { url: 'https://www.linkedin.com/in/suraj-m-s-757540151/', icon: FaLinkedin },
-        { url: 'https://github.com/suraj-ms', icon: FaGithub },
-        { url: 'https://x.com/SurajMavatkar', icon: FaSquareXTwitter },
+        { url: 'https://www.linkedin.com/in/tejaswini-hl-9682b4213/', icon: FaLinkedin },
+        { url: 'https://github.com/TEJASWINIHL18', icon: FaGithub }
     ];
     return (
         <div>
             <ReusableDef2
-                name="SURAJ MS"
-                title="Senior Software Engineer"
+                name="TEJASWINI HL"
+                title="Software Engineer"
                 description="A passionate individual who always thrives to work on end-to-end products which develop sustainable and scalable social and technical systems to create impact."
                 imgSrc={img404}
-                githubLink="https://github.com/suraj-ms/My-Portfolio"
+                githubLink="https://github.com/TEJASWINIHL18/My-Portfolio"
                 links={socialLinks}
                 iconClass="iconClass"
             />

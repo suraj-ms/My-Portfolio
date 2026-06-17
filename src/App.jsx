@@ -14,7 +14,7 @@ function App() {
                 {/* Outlet is where nested routes will be rendered */}
                 <Outlet />
             </div>
-            <div className="footer">Made with ❤️ by Suraj MS</div>
+            <div className="footer">Made with ❤️ by Tejaswini HL</div>
         </div>
 
     </div>
