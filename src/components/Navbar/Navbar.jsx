@@ -43,7 +43,7 @@ const NavBar = () => {
         { name: 'Home', path: '/' },
         { name: 'Education', path: '/education' },
         { name: 'Experience', path: '/experience' },
-        { name: 'Project', path: '/project' },
+        // { name: 'Project', path: '/project' },
         { name: 'Contact Me', path: '/contact' }
     ];
 
@@ -51,7 +51,7 @@ const NavBar = () => {
         <nav className="navbar" ref={navbarRef}>
             <div className="logo">
                 <Link to='/'>
-                    <h2 style={{ fontFamily: "BrandFont" }}> &lt; Suraj MS /&gt;</h2>
+                    <h2 style={{ fontFamily: "BrandFont" }}> &lt; Tejaswini HL /&gt;</h2>
                 </Link>
             </div>
             <ul className={`nav-links ${isMobile ? "active" : ""}`}>

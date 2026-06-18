@@ -11,9 +11,9 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const ContactItem = () => {
     const socialLinks = [
-        { url: 'https://www.linkedin.com/in/suraj-m-s-757540151/', icon: FaLinkedin },
-        { url: 'https://github.com/suraj-ms', icon: FaGithub },
-        { url: 'https://x.com/SurajMavatkar', icon: FaSquareXTwitter },
+        { url: 'https://www.linkedin.com/in/tejaswini-hl-9682b4213/', icon: FaLinkedin },
+        { url: 'https://github.com/TEJASWINIHL18', icon: FaGithub },
+        // { url: 'https://x.com/SurajMavatkar', icon: FaSquareXTwitter },
     ];
 
     const iconClass = "social-icon"; // Define a default icon class or remove if unused.
@@ -37,7 +37,7 @@ const ContactItem = () => {
             <br />
             <div class="border"></div>
             <br />
-            <div className="skill">
+            {/* <div className="skill">
                 <div className="skill_item skill_data i2d">
                     <h1 className="skill_item_head">Blogs</h1>
                     <p style={{ fontSize: '1.3rem', margin: '0px 0px 30px 20px' }}>Find my blogs by clicking on the link below</p>
@@ -47,7 +47,7 @@ const ContactItem = () => {
                 <div className="skill_item i2i">
                     <img src={blog} alt="Programming Icon" width="80%" height="80%" />
                 </div>
-            </div>
+            </div> */}
 
             <br />
             <div class="border"></div>
@@ -60,12 +60,12 @@ const ContactItem = () => {
 
                 <div className="skill_item skill_data">
                     <h1 className="skill_item_head">Address</h1>
-                    <p style={{ fontSize: '1.3rem', margin: '0px 0px 30px 20px' }} >Ramakrishna Nagar, Mysore- 570022</p>
+                    <p style={{ fontSize: '1.3rem', margin: '0px 0px 30px 20px' }} >Banglore, BTM Layout 560076</p>
                     <h1 className="skill_item_head">Phone Number</h1>
-                    <p style={{ fontSize: '1.3rem', margin: '0px 0px 30px 20px' }}><a href='tel:7259116344'>+91 7259116344</a></p>
+                    <p style={{ fontSize: '1.3rem', margin: '0px 0px 30px 20px' }}><a href='tel:9741695258'>+91 9741695258</a></p>
                     <TbHandClick style={{ fontSize: '1.3rem', transform: 'translate(100px, 9px)', rotate: '-30deg' }} />
                     <h1 className="skill_item_head">Email</h1>
-                    <p style={{ fontSize: '1.3rem', margin: '0px 0px 30px 20px' }}><a href='mailto:surajmshivakumar@gmail.com'>surajmshivakumar@gmail.com</a></p>
+                    <p style={{ fontSize: '1.3rem', margin: '0px 0px 30px 20px' }}><a href='mailto:tejaswinihl18@gmail.com'>tejaswinihl18@gmail.com</a></p>
                     <TbHandClick style={{ fontSize: '1.3rem', transform: 'translate(90px, 13px)', rotate: '-30deg' }} />
                     {/* <Link className='more_items' to='/' >Visit On Google Maps</Link> */}
                 </div>
