@@ -17,11 +17,11 @@ const Home = () => {
     return (
         <div>
             <ReusableDef2
-                name="TEJASWINI HL"
+                name="Tejaswini HL"
                 title="Software Engineer"
                 description="A passionate individual who always thrives to work on end-to-end products which develop sustainable and scalable social and technical systems to create impact."
                 imgSrc={img404}
-                githubLink="https://github.com/TEJASWINIHL18/My-Portfolio"
+                githubLink="https://www.linkedin.com/in/tejaswini-hl-9682b4213/"
                 links={socialLinks}
                 iconClass="iconClass"
             />

@@ -4,7 +4,7 @@ import ReusableDef from '../components/ReusableComponents/ReusableDef';
 import educationimg from '../assets/images/education.png';
 import '../styles/Education.css'
 import EducationItem from './EducationItem';
-import Certification from './Certification';
+// import Certification from './Certification';
 
 const Education = () => {
   const socialLinks = [
@@ -17,16 +17,16 @@ const Education = () => {
     <div>
       <ReusableDef
         title="EDUCATION"
-        description="Basic Qualification and Certifications"
+        description="Basic Qualification"
         imgSrc={educationimg}
         links={socialLinks}
         iconClass="iconClass"
       />
       <EducationItem />
-      <div className="border"></div>
-      <div className="certification_component">
+      {/* <div className="border"></div> */}
+      {/* <div className="certification_component">
         <Certification />
-      </div>
+      </div> */}
 
     </div>
   );
